@@ -11,6 +11,7 @@
 
 #include <math.h>
 #include <iostream>
+#include <map>
 
 #include "LinTrendLine.h"
 #include "color.h"
@@ -22,6 +23,7 @@ class Main {
     private:
         bool running;
         string cmd;
+        
     
     public:
         Main();
