@@ -12,6 +12,7 @@
 #include <math.h>
 #include <iostream>
 #include <map>
+#include <string>
 
 #include "LinTrendLine.h"
 #include "color.h"

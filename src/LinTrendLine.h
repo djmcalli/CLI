@@ -10,6 +10,7 @@
 #define __CommandLineInterface__CLI___LinTrendLine__
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 class LinTrendLine {

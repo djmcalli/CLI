@@ -28,9 +28,9 @@ int Main::OnExecute() {
         
         {"jatzsol", 4},
         
-        {"quit", 5},
-        {"exit", 5},
-        {"q", 5}
+        {"quit", 999},
+        {"exit", 999},
+        {"q", 999}
     };
     
     running = true;
@@ -84,8 +84,9 @@ int Main::OnExecute() {
                     break;
                 }
             
-                case 5: {
+                case 999: {
                     running = false;
+					cout << "Goodbye!\n";
                 
                     break;
                 }

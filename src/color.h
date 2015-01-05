@@ -10,6 +10,9 @@
 #define __CommandLineInterface__CLI___color__
 
 #include <iostream>
+#include <string>
+#include <algorithm>
+
 using namespace std;
 
 class Color {
