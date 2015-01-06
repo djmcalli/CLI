@@ -20,3 +20,7 @@ solution "CLI"
 		-- Enable C++11 on Linux
 		configuration { "linux or bsd or solaris" }
 			buildoptions { "-std=c++11" }
+
+		-- Enable C++/gnu++11 on Mac OS X
+		configuration "macosx"
+			buildoptions { "-std=gnu++11" }
